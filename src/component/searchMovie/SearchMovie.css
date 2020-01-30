@@ -1,0 +1,22 @@
+.searchCard{
+    width:1100px;
+    /* border:solid; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    margin-left: 200px;
+      margin-right: 200px;
+}
+.search{
+    margin:20px 0px 20px 0px;
+    width:720px;
+    height: 50px; 
+    background: linear-gradient(138deg, rgba(233,254,251,1) 0%, rgba(204,197,197,1) 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 50px;
+    
+  
+}

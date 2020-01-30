@@ -1,0 +1,93 @@
+.card{
+    width:216px;
+    height:450px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background: linear-gradient(138deg, rgba(233,254,251,1) 0%, rgba(204,197,197,1) 100%);
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    /* .card:hover{
+        transform: translateY(10px);
+        box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.253);
+        transition: ease-in-out 0.3s;
+    } */
+    .affiche{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .image{
+        width:216px;
+        height:260px;
+        /* border:solid; */
+    }
+    .name{
+        width:100%;
+        margin-top: 3px;
+        padding-top: 0px;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        margin-bottom: 0px;
+        /* border:solid; */
+    }
+    .date{
+        text-align: center;
+        margin-top: 3px;
+        margin-bottom: 0px;
+        /* border:solid; */
+    }
+    .rating{
+        margin-top: 3px;
+        /* border:solid; */
+        margin-bottom: 0px;
+    }
+   
+    .description{
+        border: 1px solid black;
+        width:150px;
+        height: 30px;
+        margin-top:3px;
+        border-radius: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Geneva', Verdana, sans-serif;
+        background:transparent;
+        color:black;
+        font-weight: 400;
+        font-size: 12px;
+        
+    }
+    .modifier{
+        display:flex;
+        flex-direction: row;
+        width:180px;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .edit{
+        border: 1px solid black;
+        width:80px;
+        height: 30px;
+        margin-top:0px;
+        border-radius: 3px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Geneva', Verdana, sans-serif;
+        background:transparent;
+        color:black;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .delete{
+        border: 1px solid black;
+        width:80px;
+        height: 30px;
+        margin-top:0px;
+        border-radius: 3px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Geneva', Verdana, sans-serif;
+        background:transparent;
+        color:black;
+        font-weight: 400;
+        font-size: 12px;
+    }

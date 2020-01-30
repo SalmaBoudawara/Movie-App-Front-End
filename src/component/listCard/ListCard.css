@@ -1,0 +1,16 @@
+.list{
+      padding-top: 50px;
+      display:flex;
+      flex-wrap: wrap;
+      margin-left: 200px;
+      margin-right: 200px;
+}
+.adde{
+    width:216px;
+    height:450px;
+    border-radius: 10px;
+    background: linear-gradient(138deg, rgba(233,254,251,1) 0%, rgba(204,197,197,1) 100%);
+    overflow: hidden;
+    font-size: 50px;
+    font-weight: 900;
+}
